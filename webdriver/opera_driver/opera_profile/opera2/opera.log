@@ -1,0 +1,32 @@
+[30268:30268:1228/141653.855761:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[30240:30240:1228/141654.726117:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141654.726493:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141654.726637:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141654.726720:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30293:1228/141654.815755:ERROR:gcm_store_impl.cc(941)] Failed to restore security token.
+[30240:30240:1228/141655.000949:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.004188:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.006923:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.010703:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.019608:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.019861:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.020336:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30240:1228/141655.020741:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[30240:30250:1228/141748.095979:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30240:1228/141753.872677:WARNING:protocol_impl.cc(277)] Couldn't add the installation info.
+[30240:30250:1228/141833.546854:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/141919.125247:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142004.566141:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142050.054389:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142135.621843:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142221.097997:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142306.553997:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142352.056771:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142437.590325:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142523.051850:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142608.498296:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142653.947876:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142739.454511:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30250:1228/142824.925389:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[30240:30240:1228/142837.657812:WARNING:session_recorder_impl.cc(87)] 1 sessions are still missing the initial context.
+[30240:30240:1228/142837.763501:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

@@ -1,0 +1,112 @@
+[28912:28912:1230/132118.729082:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[28885:28885:1230/132119.613900:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132119.614934:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132119.615016:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132119.617450:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.570853:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.571215:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.571284:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.571337:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.574988:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.575779:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.576226:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28885:1230/132120.576981:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.", source: chrome://startpage/ (0)
+[28885:28896:1230/132128.671602:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -127
+[28885:28885:1230/132218.729869:WARNING:protocol_impl.cc(277)] Couldn't add the installation info.
+[28885:28896:1230/132244.508242:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132332.023158:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132419.435059:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132507.989785:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132556.459800:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132643.934254:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132730.453328:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132817.421946:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132904.055758:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/132950.402705:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133036.804975:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133124.097312:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133211.251185:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133257.489330:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133343.866881:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133430.269791:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133516.454097:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133603.158230:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133649.439201:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133735.927863:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133822.088160:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/133920.893600:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134007.468538:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134055.872455:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134142.006539:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134228.180522:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134316.471389:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134403.940988:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134450.120060:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134537.127265:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134628.064695:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134714.309224:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134800.901731:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134850.758272:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/134938.075095:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135024.395979:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135112.555348:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135200.732054:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135247.121258:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135333.278483:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135420.924024:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135507.314042:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135554.728503:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135642.140238:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135729.348949:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135815.635846:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135902.864183:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/135950.071147:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140036.249089:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140123.555993:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140210.859494:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140257.327182:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140344.411278:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140430.743407:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140521.399070:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140607.429241:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140654.535401:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140743.975166:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140830.105262:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/140916.545856:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141004.274649:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141051.176175:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141138.795722:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141226.186593:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141312.277872:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141359.013893:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141446.191675:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141532.980251:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141619.266043:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141705.553563:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141752.760705:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141839.819586:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/141928.803375:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142015.556517:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142101.616858:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142148.989484:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142235.497973:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142321.886314:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142408.069772:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142456.026897:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142543.069140:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142630.510559:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142716.900215:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142803.901267:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142852.439191:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/142938.817447:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143025.764654:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143111.911790:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143158.939677:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143248.755156:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143336.919300:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143424.791543:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143512.556157:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143558.953301:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28896:1230/143646.365397:ERROR:socket_stream.cc(219)] Closing stream with result -2
+[28885:28885:1230/143721.026783:WARNING:session_recorder_impl.cc(87)] 1 sessions are still missing the initial context.
+[28885:28885:1230/143721.185425:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
