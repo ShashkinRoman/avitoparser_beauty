@@ -113,9 +113,9 @@ def main():
                 counter_for_reboot += 1
                 # print(counter_for_reboot)
                 if counter_for_reboot > 50:
-                    driver.quit()
+                    driver_desktop.quit()
                     driver_mobile.quit()
-                    driver = Operadriver().opera(driver_obj, path[2])
+                    driver_desktop = Operadriver().opera(driver_obj, path[2])
                     driver_mobile = Operadriver().opera(driver_obj, path[3])
                     counter_for_reboot = 0
             except Exception as e:
