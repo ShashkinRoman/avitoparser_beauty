@@ -70,7 +70,7 @@ def description_info(driver):
 def phone_info(driver_mobile, url):
     driver_mobile.get(url)
     sleep(1)
-    phone_button = driver_mobile.find_element_by_class_name('css-1nyljbo').click()
+    driver_mobile.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div[1]/a').click()
     sleep(1)
     phone = driver_mobile.find_element_by_xpath('//*[@id="modal"]/div[2]/div/div[1]/span[2]').text[1:]
     return phone
