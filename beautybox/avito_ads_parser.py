@@ -111,6 +111,8 @@ def main():
                     url=url_
                 )
                 counter_for_reboot += 1
+                url_.status = 1
+                url_.save()
                 # print(counter_for_reboot)
                 if counter_for_reboot > 50:
                     driver_desktop.quit()
@@ -120,6 +122,8 @@ def main():
                     counter_for_reboot = 0
             except Exception as e:
                 print(f"{url}, exception: {e}")
+                url_.status = 3
+                url_.save()
 
 
 if __name__ == '__main__':
