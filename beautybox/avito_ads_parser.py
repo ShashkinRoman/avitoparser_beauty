@@ -3,24 +3,16 @@ import random
 from time import sleep
 from beautybox.models import Region, Ad, Url
 from beautybox.webdriver_start import Operadriver, path
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
 def price(driver):
-    price_obj = driver.find_element_by_class_name('price-value-string')
-    price_ = price_obj.find_element_by_tag_name('span').get_attribute('content')
+    try:
+        price_obj = driver.find_element_by_class_name('price-value-string')
+        price_ = price_obj.find_element_by_tag_name('span').get_attribute('content')
+    except:
+        price_ = None
     return price_
-
-
-def info_over_title(driver):
-    info_obj = driver.find_element_by_class_name('breadcrumbs')
-    info_elements = info_obj.find_elements_by_class_name('js-breadcrumbs-link')
-    city = info_elements[0].find_element_by_tag_name('span').text
-    type_object = info_elements[2].find_element_by_tag_name('span').text
-    type_ads = info_elements[3].find_element_by_tag_name('span').text
-    type_flat = info_elements[4].find_element_by_tag_name('span').text
-    type_house = info_elements[5].find_element_by_tag_name('span').text
-    return city, type_object, type_ads, type_flat, type_house
 
 
 def title_ads(driver):
@@ -96,6 +88,12 @@ def phone_info(driver_mobile, url):
     return phone
 
 
+def driver_reboot(driver_desktop, driver_mobile, driver_obj):
+    driver_mobile.quit()
+    driver_desktop.quit()
+    return Operadriver().opera(driver_obj, path[2]), Operadriver().opera(driver_obj, path[3])
+
+
 def main():
     urls = Url.objects.filter(parsing_status=2).order_by('-date')
     driver_obj = Operadriver().start_driver()
@@ -116,7 +114,6 @@ def main():
             url_.save()
         except:
             try:
-                # city, type_object, type_ads, type_flat, type_house = info_over_title(driver)
                 Ad.objects.create(
                     price=price(driver_desktop),
                     # type_ads=type_ads,
@@ -133,11 +130,11 @@ def main():
                 url_.parsing_status = 1
                 url_.save()
                 if counter_for_reboot > 50:
-                    driver_desktop.quit()
-                    driver_mobile.quit()
-                    driver_desktop = Operadriver().opera(driver_obj, path[2])
-                    driver_mobile = Operadriver().opera(driver_obj, path[3])
+                    driver_desktop, driver_mobile = driver_reboot(driver_desktop, driver_mobile, driver_obj)
                     counter_for_reboot = 0
+                    print('driver rebooted')
+            except TimeoutException:
+                driver_desktop, driver_mobile = driver_reboot(driver_desktop, driver_mobile, driver_obj)
             except Exception as e:
                 print(f"{url}, exception: {e}")
                 url_.parsing_status = 3
