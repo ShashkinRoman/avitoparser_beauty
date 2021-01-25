@@ -24,7 +24,10 @@ def info_over_title(driver):
 
 
 def title_ads(driver):
-    title = driver.find_element_by_class_name('title-info-title-text').text
+    try:
+        title = driver.find_element_by_class_name('title-info-title-text').text
+    except:
+        title = None
     return title
 
 
@@ -34,8 +37,12 @@ def created_ads(driver):
 
 
 def owner_ads(driver):
-    name_lines = driver.find_element_by_class_name('seller-info-prop').find_elements_by_tag_name('div')
-    return list(set([line.text for line in name_lines]))
+    try:
+        name_lines = driver.find_element_by_class_name('seller-info-prop').find_elements_by_tag_name('div')
+        name = list(set([line.text for line in name_lines]))
+    except:
+        name = None
+    return name
 
 
 def contact_name(driver):
@@ -69,10 +76,20 @@ def description_info(driver):
 
 def phone_info(driver_mobile, url):
     driver_mobile.get(url)
-    sleep(1)
-    driver_mobile.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div[1]/a').click()
-    sleep(1)
-    phone = driver_mobile.find_element_by_xpath('//*[@id="modal"]/div[2]/div/div[1]/span[2]').text[1:]
+    sleep(3)
+    button = driver_mobile.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div[1]/a')
+
+    if button.text == 'Позвонить':
+        button.click()
+        sleep(1)
+        phone = driver_mobile.find_element_by_xpath('//*[@id="modal"]/div[2]/div/div[1]/span[2]').text[1:]
+    else:
+        if button.text == 'Написать':
+            phone = None
+            print('net nomera')
+        else:
+            phone = 'undefined error'
+            print(phone)
     return phone
 
 
@@ -110,10 +127,8 @@ def main():
                     phone=phone_info(driver_mobile, url),
                     url=url_
                 )
-                counter_for_reboot += 1
-                url_.status = 1
+                url_.parsing_status = 1
                 url_.save()
-                # print(counter_for_reboot)
                 if counter_for_reboot > 50:
                     driver_desktop.quit()
                     driver_mobile.quit()
@@ -124,6 +139,7 @@ def main():
                 print(f"{url}, exception: {e}")
                 url_.status = 3
                 url_.save()
+            counter_for_reboot += 1
 
 
 if __name__ == '__main__':

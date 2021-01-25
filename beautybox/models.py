@@ -14,6 +14,7 @@ parsing_status_dict = {
     "Not parsing": 2,
     "Failed first parsing": 3,
     "Failed parsing": 4,
+    "Have note phone": 5,
 }
 
 
