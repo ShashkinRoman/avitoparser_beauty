@@ -55,9 +55,12 @@ def contact_name(driver):
 
 
 def param_list(driver):
-    param_box = driver.find_element_by_class_name('item-params-list').find_elements_by_class_name('item-params-list-item')
-    params_list = []
-    [params_list.append(param.text) for param in param_box]
+    try:
+        param_box = driver.find_element_by_class_name('item-params-list').find_elements_by_class_name('item-params-list-item')
+        params_list = []
+        [params_list.append(param.text) for param in param_box]
+    except:
+        params_list = None
     return params_list
 
 
