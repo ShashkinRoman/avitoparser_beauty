@@ -76,12 +76,12 @@ def description_info(driver):
 
 def phone_info(driver_mobile, url):
     driver_mobile.get(url)
-    sleep(3)
+    sleep(2)
     button = driver_mobile.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div[1]/a')
 
     if button.text == 'Позвонить':
         button.click()
-        sleep(1)
+        sleep(3)
         phone = driver_mobile.find_element_by_xpath('//*[@id="modal"]/div[2]/div/div[1]/span[2]').text[1:]
     else:
         if button.text == 'Написать':
