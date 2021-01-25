@@ -108,7 +108,7 @@ def main():
             a = 1/0
             check_publication = driver_desktop.find_element_by_class_name(
                 'a10a3f92e9--container--1In69').text == 'Объявление снято с публикации'
-            url_.status = 4
+            url_.parsing_status = 4
             print(f"{url}, ad removed from publication)")
             url_.save()
         except:
@@ -137,7 +137,7 @@ def main():
                     counter_for_reboot = 0
             except Exception as e:
                 print(f"{url}, exception: {e}")
-                url_.status = 3
+                url_.parsing_status = 3
                 url_.save()
             counter_for_reboot += 1
 
