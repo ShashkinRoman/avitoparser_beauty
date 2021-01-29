@@ -72,7 +72,7 @@ def description_info(driver):
 def phone_info(driver_mobile, url):
     driver_mobile.get(url)
     sleep(2)
-    button = driver_mobile.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div[1]/a')
+    button = driver_mobile.find_element_by_xpath('/html/body/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/div[1]')
 
     if button.text == 'Позвонить':
         button.click()
